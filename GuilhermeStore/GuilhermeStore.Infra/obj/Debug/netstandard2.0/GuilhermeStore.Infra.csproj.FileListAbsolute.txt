@@ -1,0 +1,9 @@
+C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Infra\bin\Debug\netstandard2.0\GuilhermeStore.Infra.deps.json
+C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Infra\bin\Debug\netstandard2.0\GuilhermeStore.Infra.dll
+C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Infra\bin\Debug\netstandard2.0\GuilhermeStore.Infra.pdb
+C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Infra\obj\Debug\netstandard2.0\GuilhermeStore.Infra.csprojAssemblyReference.cache
+C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Infra\obj\Debug\netstandard2.0\GuilhermeStore.Infra.csproj.CoreCompileInputs.cache
+C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Infra\obj\Debug\netstandard2.0\GuilhermeStore.Infra.AssemblyInfoInputs.cache
+C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Infra\obj\Debug\netstandard2.0\GuilhermeStore.Infra.AssemblyInfo.cs
+C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Infra\obj\Debug\netstandard2.0\GuilhermeStore.Infra.dll
+C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Infra\obj\Debug\netstandard2.0\GuilhermeStore.Infra.pdb

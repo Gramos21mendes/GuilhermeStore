@@ -1,0 +1,14 @@
+C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Api\bin\Debug\netcoreapp2.2\GuilhermeStore.Api.deps.json
+C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Api\bin\Debug\netcoreapp2.2\GuilhermeStore.Api.runtimeconfig.json
+C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Api\bin\Debug\netcoreapp2.2\GuilhermeStore.Api.runtimeconfig.dev.json
+C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Api\bin\Debug\netcoreapp2.2\GuilhermeStore.Api.dll
+C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Api\bin\Debug\netcoreapp2.2\GuilhermeStore.Api.pdb
+C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Api\obj\Debug\netcoreapp2.2\GuilhermeStore.Api.csprojAssemblyReference.cache
+C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Api\obj\Debug\netcoreapp2.2\GuilhermeStore.Api.csproj.CoreCompileInputs.cache
+C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Api\obj\Debug\netcoreapp2.2\GuilhermeStore.Api.RazorAssemblyInfo.cache
+C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Api\obj\Debug\netcoreapp2.2\GuilhermeStore.Api.RazorAssemblyInfo.cs
+C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Api\obj\Debug\netcoreapp2.2\GuilhermeStore.Api.AssemblyInfoInputs.cache
+C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Api\obj\Debug\netcoreapp2.2\GuilhermeStore.Api.AssemblyInfo.cs
+C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Api\obj\Debug\netcoreapp2.2\GuilhermeStore.Api.RazorTargetAssemblyInfo.cache
+C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Api\obj\Debug\netcoreapp2.2\GuilhermeStore.Api.dll
+C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Api\obj\Debug\netcoreapp2.2\GuilhermeStore.Api.pdb
