@@ -1,12 +1,12 @@
-using System;
+using FluentValidator;
+using GuilhermeStore.Domain.StoreContext.ValueObjects;
 using System.Collections.Generic;
 using System.Linq;
-using GuilhermeStore.Domain.StoreContext.ValueObjects;
 
 namespace GuilhermeStore.Domain.StoreContext.Entities
 {
     //CLIENTE
-    public class Customer
+    public class Customer : Notifiable
     {
         //SOLID
         private readonly IList<Address> _addresses;

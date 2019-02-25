@@ -25,13 +25,16 @@ namespace GuilhermeStore.Tests
 
             //Criando e adicionando itens ao pedido
             var order = new Order(c);
-            order.AddItem(new OrderItem(mouse, 5));
-            order.AddItem(new OrderItem(teclado, 5));
-            order.AddItem(new OrderItem(impressora, 5));
-            order.AddItem(new OrderItem(cadeira, 5));
+            //order.AddItem(new OrderItem(mouse, 5));
+            //order.AddItem(new OrderItem(teclado, 5));
+            //order.AddItem(new OrderItem(impressora, 5));
+            //order.AddItem(new OrderItem(cadeira, 5));
 
             //Realizar o Pedido
             order.Place();
+
+            //Verificar se o pedido é valido
+            var valid = order.IsValid;
 
             //Pagar o pedido
             order.Pay();

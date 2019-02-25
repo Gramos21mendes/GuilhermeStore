@@ -1,6 +1,7 @@
 C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Domain\bin\Debug\netstandard2.0\GuilhermeStore.Domain.deps.json
 C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Domain\bin\Debug\netstandard2.0\GuilhermeStore.Domain.dll
 C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Domain\bin\Debug\netstandard2.0\GuilhermeStore.Domain.pdb
+C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Domain\obj\Debug\netstandard2.0\GuilhermeStore.Domain.csprojAssemblyReference.cache
 C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Domain\obj\Debug\netstandard2.0\GuilhermeStore.Domain.csproj.CoreCompileInputs.cache
 C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Domain\obj\Debug\netstandard2.0\GuilhermeStore.Domain.AssemblyInfoInputs.cache
 C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Domain\obj\Debug\netstandard2.0\GuilhermeStore.Domain.AssemblyInfo.cs

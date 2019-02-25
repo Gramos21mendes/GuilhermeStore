@@ -1,9 +1,9 @@
-using System;
+using FluentValidator;
 
 namespace GuilhermeStore.Domain.StoreContext.Entities
 {
     //PRODUTO
-    public class Product
+    public class Product : Notifiable
     {
 
         public Product(string title, string description, string image, decimal price, decimal quantityOnHand)

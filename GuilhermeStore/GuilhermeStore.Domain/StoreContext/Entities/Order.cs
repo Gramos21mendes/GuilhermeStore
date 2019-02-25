@@ -1,12 +1,13 @@
+using FluentValidator;
+using GuilhermeStore.Domain.StoreContext.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using GuilhermeStore.Domain.StoreContext.Enums;
 
 namespace GuilhermeStore.Domain.StoreContext.Entities
 {
     //PEDIDO
-    public class Order
+    public class Order : Notifiable
     {
 
         private readonly IList<OrderItem> _items;
@@ -39,7 +40,9 @@ namespace GuilhermeStore.Domain.StoreContext.Entities
         {
             //Gera o número do pedido
             Number = Guid.NewGuid().ToString().Replace("-", "").Substring(0, 8).ToUpper();
-            //Validar
+
+            if (_items.Count() == 0)
+                AddNotification("Order", "Este pedido não possui itens");
         }
 
         //Pagar um pedido
