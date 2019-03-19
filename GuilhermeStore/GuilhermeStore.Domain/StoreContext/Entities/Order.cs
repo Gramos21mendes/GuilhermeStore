@@ -28,21 +28,25 @@ namespace GuilhermeStore.Domain.StoreContext.Entities
         public IReadOnlyCollection<OrderItem> Items => _items.ToArray();
         public IReadOnlyCollection<Delivery> Deliveries => _deliveries.ToArray();
 
-        public void AddItem(OrderItem item)
+
+        public void AddItem(Product product, decimal quantity)
         {
             //Valida item
-            //Adiciona ao pedido
+            if (quantity > product.QuantityOnHand)
+                AddNotification("OrderItem", $"Produto {product.Title} nÃ£o tem {quantity} itens em estoque.");
+
+            var item = new OrderItem(product, quantity);
             _items.Add(item);
         }
 
         //Criar um pedido
         public void Place()
         {
-            //Gera o número do pedido
+            //Gera o nï¿½mero do pedido
             Number = Guid.NewGuid().ToString().Replace("-", "").Substring(0, 8).ToUpper();
 
             if (_items.Count() == 0)
-                AddNotification("Order", "Este pedido não possui itens");
+                AddNotification("Order", "Este pedido nÃ£o possui itens");
         }
 
         //Pagar um pedido

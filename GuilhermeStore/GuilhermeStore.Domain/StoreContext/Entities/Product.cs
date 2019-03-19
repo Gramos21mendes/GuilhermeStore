@@ -6,13 +6,13 @@ namespace GuilhermeStore.Domain.StoreContext.Entities
     public class Product : Notifiable
     {
 
-        public Product(string title, string description, string image, decimal price, decimal quantityOnHand)
+        public Product(string title, string description, string image, decimal price, decimal quantity)
         {
             Title = title;
             Description = description;
             Image = image;
             Price = price;
-            QuantityOnHand = quantityOnHand;
+            QuantityOnHand = quantity;
         }
 
         public string Title { get; private set; }
