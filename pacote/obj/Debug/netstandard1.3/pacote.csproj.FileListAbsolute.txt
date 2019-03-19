@@ -1,0 +1,9 @@
+C:\Users\guilherme.mendes\dev\pacote\bin\Debug\netstandard1.3\pacote.deps.json
+C:\Users\guilherme.mendes\dev\pacote\bin\Debug\netstandard1.3\pacote.dll
+C:\Users\guilherme.mendes\dev\pacote\bin\Debug\netstandard1.3\pacote.pdb
+C:\Users\guilherme.mendes\dev\pacote\obj\Debug\netstandard1.3\pacote.csprojAssemblyReference.cache
+C:\Users\guilherme.mendes\dev\pacote\obj\Debug\netstandard1.3\pacote.csproj.CoreCompileInputs.cache
+C:\Users\guilherme.mendes\dev\pacote\obj\Debug\netstandard1.3\pacote.AssemblyInfoInputs.cache
+C:\Users\guilherme.mendes\dev\pacote\obj\Debug\netstandard1.3\pacote.AssemblyInfo.cs
+C:\Users\guilherme.mendes\dev\pacote\obj\Debug\netstandard1.3\pacote.dll
+C:\Users\guilherme.mendes\dev\pacote\obj\Debug\netstandard1.3\pacote.pdb
