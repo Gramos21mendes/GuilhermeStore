@@ -19,13 +19,13 @@ namespace GuilhermeStore.Domain.StoreContext.Entities
 
         public void Ship()
         {
-            //Se a Data estimada de entrega for no passado, não entregar.
+            //Se a Data estimada de entrega for no passado, nï¿½o entregar.
             Status = EDeliveryStatus.Shipped;
         }
 
         public void Cancel()
         {
-            //Se o Status for entregue, não pode cancelar.
+            //Se o Status for entregue, nï¿½o pode cancelar.
             Status = EDeliveryStatus.Canceled;
         }
     }

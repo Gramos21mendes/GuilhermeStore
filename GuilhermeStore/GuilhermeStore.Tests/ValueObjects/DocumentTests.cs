@@ -2,7 +2,7 @@ using GuilhermeStore.Domain.StoreContext.Entities;
 using GuilhermeStore.Domain.StoreContext.ValueObjects;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace GuilhermeStore.Tests
+namespace GuilhermeStore.Tests.ValueObjects
 {
     [TestClass]
     public class DocumentTests
