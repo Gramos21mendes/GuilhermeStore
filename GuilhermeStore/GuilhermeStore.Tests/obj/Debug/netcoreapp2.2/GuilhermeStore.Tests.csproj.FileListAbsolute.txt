@@ -7,7 +7,9 @@ C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Tests\bin\Debug\netc
 C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Tests\bin\Debug\netcoreapp2.2\GuilhermeStore.Tests.dll
 C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Tests\bin\Debug\netcoreapp2.2\GuilhermeStore.Tests.pdb
 C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Tests\bin\Debug\netcoreapp2.2\GuilhermeStore.Domain.dll
+C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Tests\bin\Debug\netcoreapp2.2\GuilhermeStore.Shared.dll
 C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Tests\bin\Debug\netcoreapp2.2\GuilhermeStore.Domain.pdb
+C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Tests\bin\Debug\netcoreapp2.2\GuilhermeStore.Shared.pdb
 C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Tests\obj\Debug\netcoreapp2.2\GuilhermeStore.Tests.csprojAssemblyReference.cache
 C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Tests\obj\Debug\netcoreapp2.2\GuilhermeStore.Tests.csproj.CoreCompileInputs.cache
 C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Tests\obj\Debug\netcoreapp2.2\GuilhermeStore.Tests.AssemblyInfoInputs.cache

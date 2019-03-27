@@ -6,3 +6,4 @@ C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Shared\obj\Debug\net
 C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Shared\obj\Debug\netstandard2.0\GuilhermeStore.Shared.AssemblyInfo.cs
 C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Shared\obj\Debug\netstandard2.0\GuilhermeStore.Shared.dll
 C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Shared\obj\Debug\netstandard2.0\GuilhermeStore.Shared.pdb
+C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Shared\obj\Debug\netstandard2.0\GuilhermeStore.Shared.csprojAssemblyReference.cache
