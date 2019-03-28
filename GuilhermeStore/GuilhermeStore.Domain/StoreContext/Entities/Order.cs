@@ -1,5 +1,6 @@
 using FluentValidator;
 using GuilhermeStore.Domain.StoreContext.Enums;
+using GuilhermeStore.Shared.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Linq;
 namespace GuilhermeStore.Domain.StoreContext.Entities
 {
     //PEDIDO
-    public class Order : Notifiable
+    public class Order : Entity
     {
 
         private readonly IList<OrderItem> _items;

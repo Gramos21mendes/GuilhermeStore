@@ -1,9 +1,10 @@
 using FluentValidator;
+using GuilhermeStore.Shared.Entities;
 
 namespace GuilhermeStore.Domain.StoreContext.Entities
 {
     //PRODUTO
-    public class Product : Notifiable
+    public class Product : Entity
     {
 
         public Product(string title, string description, string image, decimal price, decimal quantity)
