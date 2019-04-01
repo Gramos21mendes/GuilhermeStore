@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Infra\\GuilhermeStore.Infra.csproj": {}
+    "c:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Infra\\GuilhermeStore.Infra.csproj": {}
   },
   "projects": {
-    "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Infra\\GuilhermeStore.Infra.csproj": {
+    "c:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Infra\\GuilhermeStore.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Infra\\GuilhermeStore.Infra.csproj",
+        "projectUniqueName": "c:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Infra\\GuilhermeStore.Infra.csproj",
         "projectName": "GuilhermeStore.Infra",
-        "projectPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Infra\\GuilhermeStore.Infra.csproj",
-        "packagesPath": "C:\\Users\\guilherme.mendes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Infra\\obj\\",
+        "projectPath": "c:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Infra\\GuilhermeStore.Infra.csproj",
+        "packagesPath": "C:\\Users\\gramo\\.nuget\\packages\\",
+        "outputPath": "c:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Xamarin\\NuGet\\",
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\guilherme.mendes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gramo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

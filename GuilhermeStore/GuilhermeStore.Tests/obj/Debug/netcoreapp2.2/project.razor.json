@@ -1,14 +1,6 @@
 {
-  "ProjectFilePath": "c:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Tests\\GuilhermeStore.Tests.csproj",
+  "ProjectFilePath": "c:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Tests\\GuilhermeStore.Tests.csproj",
   "TargetFramework": "netcoreapp2.2",
   "TagHelpers": [],
-  "Configuration": {
-    "ConfigurationName": "UnsupportedRazor",
-    "LanguageVersion": "1.0",
-    "Extensions": [
-      {
-        "ExtensionName": "UnsupportedRazorExtension"
-      }
-    ]
-  }
+  "Configuration": null
 }

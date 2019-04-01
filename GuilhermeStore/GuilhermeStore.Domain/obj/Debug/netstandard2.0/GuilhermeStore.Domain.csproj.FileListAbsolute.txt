@@ -10,3 +10,15 @@ C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Domain\obj\Debug\net
 C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Domain\obj\Debug\netstandard2.0\GuilhermeStore.Domain.csproj.CopyComplete
 C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Domain\obj\Debug\netstandard2.0\GuilhermeStore.Domain.dll
 C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Domain\obj\Debug\netstandard2.0\GuilhermeStore.Domain.pdb
+C:\Development\GuilhermeStore\GuilhermeStore\GuilhermeStore\GuilhermeStore.Domain\bin\Debug\netstandard2.0\GuilhermeStore.Domain.deps.json
+C:\Development\GuilhermeStore\GuilhermeStore\GuilhermeStore\GuilhermeStore.Domain\bin\Debug\netstandard2.0\GuilhermeStore.Domain.dll
+C:\Development\GuilhermeStore\GuilhermeStore\GuilhermeStore\GuilhermeStore.Domain\bin\Debug\netstandard2.0\GuilhermeStore.Domain.pdb
+C:\Development\GuilhermeStore\GuilhermeStore\GuilhermeStore\GuilhermeStore.Domain\bin\Debug\netstandard2.0\GuilhermeStore.Shared.dll
+C:\Development\GuilhermeStore\GuilhermeStore\GuilhermeStore\GuilhermeStore.Domain\bin\Debug\netstandard2.0\GuilhermeStore.Shared.pdb
+C:\Development\GuilhermeStore\GuilhermeStore\GuilhermeStore\GuilhermeStore.Domain\obj\Debug\netstandard2.0\GuilhermeStore.Domain.csprojAssemblyReference.cache
+C:\Development\GuilhermeStore\GuilhermeStore\GuilhermeStore\GuilhermeStore.Domain\obj\Debug\netstandard2.0\GuilhermeStore.Domain.csproj.CoreCompileInputs.cache
+C:\Development\GuilhermeStore\GuilhermeStore\GuilhermeStore\GuilhermeStore.Domain\obj\Debug\netstandard2.0\GuilhermeStore.Domain.AssemblyInfoInputs.cache
+C:\Development\GuilhermeStore\GuilhermeStore\GuilhermeStore\GuilhermeStore.Domain\obj\Debug\netstandard2.0\GuilhermeStore.Domain.AssemblyInfo.cs
+C:\Development\GuilhermeStore\GuilhermeStore\GuilhermeStore\GuilhermeStore.Domain\obj\Debug\netstandard2.0\GuilhermeStore.Domain.csproj.CopyComplete
+C:\Development\GuilhermeStore\GuilhermeStore\GuilhermeStore\GuilhermeStore.Domain\obj\Debug\netstandard2.0\GuilhermeStore.Domain.dll
+C:\Development\GuilhermeStore\GuilhermeStore\GuilhermeStore\GuilhermeStore.Domain\obj\Debug\netstandard2.0\GuilhermeStore.Domain.pdb
