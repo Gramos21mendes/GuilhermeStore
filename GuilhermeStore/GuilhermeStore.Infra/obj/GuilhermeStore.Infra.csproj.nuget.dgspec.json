@@ -1,17 +1,85 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Infra\\GuilhermeStore.Infra.csproj": {}
+    "C:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Infra\\GuilhermeStore.Infra.csproj": {}
   },
   "projects": {
-    "c:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Infra\\GuilhermeStore.Infra.csproj": {
+    "C:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Infra\\GuilhermeStore.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Infra\\GuilhermeStore.Infra.csproj",
+        "projectUniqueName": "C:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Infra\\GuilhermeStore.Infra.csproj",
         "projectName": "GuilhermeStore.Infra",
-        "projectPath": "c:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Infra\\GuilhermeStore.Infra.csproj",
+        "projectPath": "C:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Infra\\GuilhermeStore.Infra.csproj",
         "packagesPath": "C:\\Users\\gramo\\.nuget\\packages\\",
-        "outputPath": "c:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Infra\\obj\\",
+        "outputPath": "C:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gramo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj": {
+                "projectPath": "C:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[1.60.6, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj",
+        "projectName": "GuilhermeStore.Shared",
+        "projectPath": "C:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj",
+        "packagesPath": "C:\\Users\\gramo\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -49,6 +117,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "FluentValidator": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

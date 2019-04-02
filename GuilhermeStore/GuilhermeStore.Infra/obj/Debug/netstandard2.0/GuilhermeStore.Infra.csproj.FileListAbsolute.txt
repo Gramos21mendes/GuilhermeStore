@@ -9,9 +9,12 @@ C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Infra\obj\Debug\nets
 C:\Development\GuilhermeStore\GuilhermeStore\GuilhermeStore\GuilhermeStore.Infra\bin\Debug\netstandard2.0\GuilhermeStore.Infra.deps.json
 C:\Development\GuilhermeStore\GuilhermeStore\GuilhermeStore\GuilhermeStore.Infra\bin\Debug\netstandard2.0\GuilhermeStore.Infra.dll
 C:\Development\GuilhermeStore\GuilhermeStore\GuilhermeStore\GuilhermeStore.Infra\bin\Debug\netstandard2.0\GuilhermeStore.Infra.pdb
+C:\Development\GuilhermeStore\GuilhermeStore\GuilhermeStore\GuilhermeStore.Infra\bin\Debug\netstandard2.0\GuilhermeStore.Shared.dll
+C:\Development\GuilhermeStore\GuilhermeStore\GuilhermeStore\GuilhermeStore.Infra\bin\Debug\netstandard2.0\GuilhermeStore.Shared.pdb
 C:\Development\GuilhermeStore\GuilhermeStore\GuilhermeStore\GuilhermeStore.Infra\obj\Debug\netstandard2.0\GuilhermeStore.Infra.csprojAssemblyReference.cache
 C:\Development\GuilhermeStore\GuilhermeStore\GuilhermeStore\GuilhermeStore.Infra\obj\Debug\netstandard2.0\GuilhermeStore.Infra.csproj.CoreCompileInputs.cache
 C:\Development\GuilhermeStore\GuilhermeStore\GuilhermeStore\GuilhermeStore.Infra\obj\Debug\netstandard2.0\GuilhermeStore.Infra.AssemblyInfoInputs.cache
 C:\Development\GuilhermeStore\GuilhermeStore\GuilhermeStore\GuilhermeStore.Infra\obj\Debug\netstandard2.0\GuilhermeStore.Infra.AssemblyInfo.cs
+C:\Development\GuilhermeStore\GuilhermeStore\GuilhermeStore\GuilhermeStore.Infra\obj\Debug\netstandard2.0\GuilhermeStore.Infra.csproj.CopyComplete
 C:\Development\GuilhermeStore\GuilhermeStore\GuilhermeStore\GuilhermeStore.Infra\obj\Debug\netstandard2.0\GuilhermeStore.Infra.dll
 C:\Development\GuilhermeStore\GuilhermeStore\GuilhermeStore\GuilhermeStore.Infra\obj\Debug\netstandard2.0\GuilhermeStore.Infra.pdb

@@ -5886,11 +5886,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Tests\\GuilhermeStore.Tests.csproj",
+      "projectUniqueName": "C:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Tests\\GuilhermeStore.Tests.csproj",
       "projectName": "GuilhermeStore.Tests",
-      "projectPath": "c:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Tests\\GuilhermeStore.Tests.csproj",
+      "projectPath": "C:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Tests\\GuilhermeStore.Tests.csproj",
       "packagesPath": "C:\\Users\\gramo\\.nuget\\packages\\",
-      "outputPath": "c:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Tests\\obj\\",
+      "outputPath": "C:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -5917,8 +5917,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "c:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Domain\\GuilhermeStore.Domain.csproj": {
-              "projectPath": "c:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Domain\\GuilhermeStore.Domain.csproj"
+            "C:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Domain\\GuilhermeStore.Domain.csproj": {
+              "projectPath": "C:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Domain\\GuilhermeStore.Domain.csproj"
             }
           }
         }

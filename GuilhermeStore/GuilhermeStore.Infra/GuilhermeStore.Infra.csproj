@@ -4,4 +4,13 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.60.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GuilhermeStore.Shared\GuilhermeStore.Shared.csproj" />
+    <ProjectReference Include="..\GuilhermeStore.Domain\GuilhermeStore.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
