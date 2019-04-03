@@ -2,6 +2,7 @@ using System.Data;
 using System.Linq;
 using Dapper;
 using GuilhermeStore.Domain.StoreContext.Entities;
+using GuilhermeStore.Domain.StoreContext.Queries;
 using GuilhermeStore.Domain.StoreContext.Repositories;
 using GuilhermeStore.Infra.StoreContext.DataContexts;
 
@@ -37,7 +38,17 @@ namespace GuilhermeStore.Infra.StoreContext.Repositories
             return _context.Connection.Query<bool>(
                 "spCheckDocument",
                 new { Email = email },
-                 commandType: CommandType.StoredProcedure).FirstOrDefault();
+                 commandType: CommandType.StoredProcedure)
+                 .FirstOrDefault();
+        }
+
+        public CustomerOrdersCountResult GetCustomerOrdersCount(string document)
+        {
+            return _context.Connection.Query<CustomerOrdersCountResult>(
+                "spGetCustomerOrdersCount",
+                new { Document = document },
+                 commandType: CommandType.StoredProcedure)
+                 .FirstOrDefault();
         }
 
         public void Save(Customer customer)

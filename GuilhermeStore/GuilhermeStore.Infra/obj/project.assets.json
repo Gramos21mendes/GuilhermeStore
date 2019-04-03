@@ -371,6 +371,20 @@
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
       },
+      "GuilhermeStore.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "FluentValidator": "2.0.2",
+          "GuilhermeStore.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GuilhermeStore.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GuilhermeStore.Domain.dll": {}
+        }
+      },
       "GuilhermeStore.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -1857,6 +1871,11 @@
         "system.threading.tasks.nuspec"
       ]
     },
+    "GuilhermeStore.Domain/1.0.0": {
+      "type": "project",
+      "path": "../GuilhermeStore.Domain/GuilhermeStore.Domain.csproj",
+      "msbuildProject": "../GuilhermeStore.Domain/GuilhermeStore.Domain.csproj"
+    },
     "GuilhermeStore.Shared/1.0.0": {
       "type": "project",
       "path": "../GuilhermeStore.Shared/GuilhermeStore.Shared.csproj",
@@ -1866,6 +1885,7 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "Dapper >= 1.60.6",
+      "GuilhermeStore.Domain >= 1.0.0",
       "GuilhermeStore.Shared >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
@@ -1909,6 +1929,9 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
+            "C:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Domain\\GuilhermeStore.Domain.csproj": {
+              "projectPath": "C:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Domain\\GuilhermeStore.Domain.csproj"
+            },
             "C:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj": {
               "projectPath": "C:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj"
             }

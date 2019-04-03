@@ -12086,11 +12086,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Api\\GuilhermeStore.Api.csproj",
+      "projectUniqueName": "C:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Api\\GuilhermeStore.Api.csproj",
       "projectName": "GuilhermeStore.Api",
-      "projectPath": "c:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Api\\GuilhermeStore.Api.csproj",
+      "projectPath": "C:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Api\\GuilhermeStore.Api.csproj",
       "packagesPath": "C:\\Users\\gramo\\.nuget\\packages\\",
-      "outputPath": "c:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Api\\obj\\",
+      "outputPath": "C:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\ProgramData\\Xamarin\\NuGet\\",

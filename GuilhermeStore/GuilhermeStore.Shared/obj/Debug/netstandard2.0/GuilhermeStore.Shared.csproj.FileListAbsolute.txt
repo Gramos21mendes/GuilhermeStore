@@ -9,7 +9,6 @@ C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Shared\obj\Debug\net
 C:\Development\GuilhermeStore\GuilhermeStore\GuilhermeStore\GuilhermeStore.Shared\bin\Debug\netstandard2.0\GuilhermeStore.Shared.deps.json
 C:\Development\GuilhermeStore\GuilhermeStore\GuilhermeStore\GuilhermeStore.Shared\bin\Debug\netstandard2.0\GuilhermeStore.Shared.dll
 C:\Development\GuilhermeStore\GuilhermeStore\GuilhermeStore\GuilhermeStore.Shared\bin\Debug\netstandard2.0\GuilhermeStore.Shared.pdb
-C:\Development\GuilhermeStore\GuilhermeStore\GuilhermeStore\GuilhermeStore.Shared\obj\Debug\netstandard2.0\GuilhermeStore.Shared.csprojAssemblyReference.cache
 C:\Development\GuilhermeStore\GuilhermeStore\GuilhermeStore\GuilhermeStore.Shared\obj\Debug\netstandard2.0\GuilhermeStore.Shared.csproj.CoreCompileInputs.cache
 C:\Development\GuilhermeStore\GuilhermeStore\GuilhermeStore\GuilhermeStore.Shared\obj\Debug\netstandard2.0\GuilhermeStore.Shared.AssemblyInfoInputs.cache
 C:\Development\GuilhermeStore\GuilhermeStore\GuilhermeStore\GuilhermeStore.Shared\obj\Debug\netstandard2.0\GuilhermeStore.Shared.AssemblyInfo.cs

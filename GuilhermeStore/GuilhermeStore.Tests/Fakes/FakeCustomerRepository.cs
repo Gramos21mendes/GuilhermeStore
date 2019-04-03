@@ -1,6 +1,7 @@
 using GuilhermeStore.Domain.StoreContext.CustomerCommands.Inputs;
 using GuilhermeStore.Domain.StoreContext.Entities;
 using GuilhermeStore.Domain.StoreContext.Handlers;
+using GuilhermeStore.Domain.StoreContext.Queries;
 using GuilhermeStore.Domain.StoreContext.Repositories;
 using GuilhermeStore.Domain.StoreContext.ValueObjects;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -18,6 +19,11 @@ namespace GuilhermeStore.Tests.Fakes
         public bool CheckEmail(string email)
         {
             return false;
+        }
+
+        public CustomerOrdersCountResult GetCustomerOrdersCount(string document)
+        {
+            return null;
         }
 
         public void Save(Customer customer)

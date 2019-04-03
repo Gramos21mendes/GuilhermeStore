@@ -1,4 +1,5 @@
 using GuilhermeStore.Domain.StoreContext.Entities;
+using GuilhermeStore.Domain.StoreContext.Queries;
 
 namespace GuilhermeStore.Domain.StoreContext.Repositories
 {
@@ -7,5 +8,6 @@ namespace GuilhermeStore.Domain.StoreContext.Repositories
         bool CheckDocument(string document);
         bool CheckEmail(string email);
         void Save(Customer customer);
+        CustomerOrdersCountResult GetCustomerOrdersCount(string document);
     }
 }
