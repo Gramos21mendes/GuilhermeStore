@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj": {}
+    "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj": {
+    "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj",
         "projectName": "GuilhermeStore.Shared",
-        "projectPath": "C:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj",
-        "packagesPath": "C:\\Users\\gramo\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Shared\\obj\\",
+        "projectPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj",
+        "packagesPath": "C:\\Users\\guilherme.mendes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\gramo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\guilherme.mendes\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

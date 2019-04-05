@@ -26,3 +26,8 @@ C:\Development\GuilhermeStore\GuilhermeStore\GuilhermeStore\GuilhermeStore.Api\o
 C:\Development\GuilhermeStore\GuilhermeStore\GuilhermeStore\GuilhermeStore.Api\obj\Debug\netcoreapp2.2\GuilhermeStore.Api.RazorTargetAssemblyInfo.cache
 C:\Development\GuilhermeStore\GuilhermeStore\GuilhermeStore\GuilhermeStore.Api\obj\Debug\netcoreapp2.2\GuilhermeStore.Api.dll
 C:\Development\GuilhermeStore\GuilhermeStore\GuilhermeStore\GuilhermeStore.Api\obj\Debug\netcoreapp2.2\GuilhermeStore.Api.pdb
+C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Api\bin\Debug\netcoreapp2.2\GuilhermeStore.Domain.dll
+C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Api\bin\Debug\netcoreapp2.2\GuilhermeStore.Shared.dll
+C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Api\bin\Debug\netcoreapp2.2\GuilhermeStore.Domain.pdb
+C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Api\bin\Debug\netcoreapp2.2\GuilhermeStore.Shared.pdb
+C:\Users\guilherme.mendes\dev\GuilhermeStore\GuilhermeStore.Api\obj\Debug\netcoreapp2.2\GuilhermeStore.Api.csproj.CopyComplete
