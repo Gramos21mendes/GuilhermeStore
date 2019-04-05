@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using Dapper;
@@ -17,39 +19,40 @@ namespace GuilhermeStore.Infra.StoreContext.Repositories
         {
             _context = context;
         }
-        public bool CheckDocument(string document)
-        {
-            // var parameter = new DynamicParameters();
-
-            // parameter.Add("@Document", document);
-
-            return _context.Connection.Query<bool>(
+        public bool CheckDocument(string document) =>
+             _context.Connection.Query<bool>(
                 "spCheckDocument",
                 new { Document = document },
                  commandType: CommandType.StoredProcedure).FirstOrDefault();
-        }
 
-        public bool CheckEmail(string email)
-        {
-            // var parameter = new DynamicParameters();
 
-            // parameter.Add("@Email", email);
-
-            return _context.Connection.Query<bool>(
+        public bool CheckEmail(string email) =>
+        _context.Connection.Query<bool>(
                 "spCheckDocument",
                 new { Email = email },
                  commandType: CommandType.StoredProcedure)
                  .FirstOrDefault();
-        }
 
-        public CustomerOrdersCountResult GetCustomerOrdersCount(string document)
-        {
-            return _context.Connection.Query<CustomerOrdersCountResult>(
+
+        public IEnumerable<ListCustomerQueryResult> Get() =>
+        _context.Connection.Query<ListCustomerQueryResult>("spListCustomer", commandType: CommandType.StoredProcedure);
+
+        public CustomerOrdersCountResult GetCustomerOrdersCount(string document) =>
+        _context.Connection.Query<CustomerOrdersCountResult>(
                 "spGetCustomerOrdersCount",
                 new { Document = document },
                  commandType: CommandType.StoredProcedure)
                  .FirstOrDefault();
-        }
+
+        public GetCustomerQueryResult Get(Guid id) =>
+            _context.Connection.Query<GetCustomerQueryResult>(
+                "spListCustomerId",
+                new { Id = id },
+                 commandType: CommandType.StoredProcedure).FirstOrDefault();
+
+        //TODO : Fazer Procedure para listar os pedidos do Cliente.
+        public IEnumerable<ListCustomerOrdersQueryResult> GetOrders(Guid id) =>
+            _context.Connection.Query<ListCustomerOrdersQueryResult>("spCustomerGetOrders", commandType: CommandType.StoredProcedure);
 
         public void Save(Customer customer)
         {

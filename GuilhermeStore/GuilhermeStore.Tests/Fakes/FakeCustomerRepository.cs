@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using GuilhermeStore.Domain.StoreContext.CustomerCommands.Inputs;
 using GuilhermeStore.Domain.StoreContext.Entities;
 using GuilhermeStore.Domain.StoreContext.Handlers;
@@ -28,8 +30,18 @@ namespace GuilhermeStore.Tests.Fakes
 
         public void Save(Customer customer)
         {
-            
+
         }
 
+        public IEnumerable<ListCustomerQueryResult> Get()
+        {
+            return null;
+        }
+
+
+        public GetCustomerQueryResult Get(Guid id)
+        {
+            return null;
+        }
     }
 }
