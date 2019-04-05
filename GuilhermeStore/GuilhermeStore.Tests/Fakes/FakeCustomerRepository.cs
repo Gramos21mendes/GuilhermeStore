@@ -43,5 +43,10 @@ namespace GuilhermeStore.Tests.Fakes
         {
             return null;
         }
+
+        public IEnumerable<ListCustomerOrdersQueryResult> GetOrders(Guid id)
+        {
+            return null;
+        }
     }
 }

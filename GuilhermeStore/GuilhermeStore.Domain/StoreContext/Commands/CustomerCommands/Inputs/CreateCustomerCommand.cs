@@ -25,9 +25,5 @@ namespace GuilhermeStore.Domain.StoreContext.CustomerCommands.Inputs
             return IsValid;
         }
 
-        // Se o usuário existe no banco (Email)
-
-        // Se o usuário existe no banco (CPF)
-
     }
 }

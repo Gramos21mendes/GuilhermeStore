@@ -1,4 +1,5 @@
-﻿using GuilhermeStore.Domain.StoreContext.Repositories;
+﻿using GuilhermeStore.Domain.StoreContext.Handlers;
+using GuilhermeStore.Domain.StoreContext.Repositories;
 using GuilhermeStore.Domain.StoreContext.Services;
 using GuilhermeStore.Infra.StoreContext.DataContexts;
 using GuilhermeStore.Infra.StoreContext.Repositories;
@@ -22,6 +23,7 @@ namespace GuilhermeStore.Api
             services.AddScoped<GuilhermeDataContext, GuilhermeDataContext>();
             services.AddTransient<ICustomerRepository, CustomerRepository>();
             services.AddTransient<IEmailService, EmailService>();
+            services.AddTransient<CustomerHandler, CustomerHandler>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
