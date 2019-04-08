@@ -26,6 +26,8 @@ namespace GuilhermeStore.Api.Controllers
 
         [HttpGet]
         [Route("customers")]
+        // [ResponseCache(Duration = 60)] Cache, se os dados forem muito mutáveis não compensa.
+        // Location =  ResponseCacheLocation.Client
         public IEnumerable<ListCustomerQueryResult> Get() => _repository.Get();
 
         [HttpGet]

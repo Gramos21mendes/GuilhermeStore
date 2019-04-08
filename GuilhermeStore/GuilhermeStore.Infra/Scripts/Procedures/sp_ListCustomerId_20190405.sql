@@ -3,6 +3,6 @@ CREATE PROCEDURE spListCustomerId
 AS
 
 SELECT [Id]
-, CONCAT([Name],'',[LastName]) AS [Name]
+, CONCAT([FirstName],'',[LastName]) AS [Name]
 , [Document]
-, [Email] FROM GuilhermStore.Customer WHERE Id = @Id;
+, [Email] FROM GuilhermeStore.Customer WHERE Id = @Id;

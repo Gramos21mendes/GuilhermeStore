@@ -28,7 +28,7 @@ namespace GuilhermeStore.Infra.StoreContext.Repositories
 
         public bool CheckEmail(string email) =>
         _context.Connection.Query<bool>(
-                "spCheckDocument",
+                "spCheckEmail",
                 new { Email = email },
                  commandType: CommandType.StoredProcedure)
                  .FirstOrDefault();
@@ -63,7 +63,7 @@ namespace GuilhermeStore.Infra.StoreContext.Repositories
                    Id = customer.Id,
                    FirstName = customer.Name.FirstName,
                    LastName = customer.Name.LastName,
-                   Document = customer.Document,
+                   Document = customer.Document.ToString(),
                    Email = customer.Email.Address,
                    Phone = customer.Phone
                },
