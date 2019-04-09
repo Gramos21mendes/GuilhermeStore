@@ -65,7 +65,10 @@ namespace GuilhermeStore.Infra.StoreContext.Repositories
                    LastName = customer.Name.LastName,
                    Document = customer.Document.ToString(),
                    Email = customer.Email.Address,
-                   Phone = customer.Phone
+                   Phone = customer.Phone,
+                   RegisterDate = DateTime.Now,
+                   AlterationDate = DateTime.Now
+
                },
                 commandType: CommandType.StoredProcedure);
 
@@ -82,10 +85,39 @@ namespace GuilhermeStore.Infra.StoreContext.Repositories
                     State = address.State,
                     Country = address.Country,
                     ZipCode = address.ZipCode,
+                    RegisterDate = DateTime.Now,
                     Type = address.Type,
                 }, commandType: CommandType.StoredProcedure);
             }
 
         }
+
+        public void EditCustomer(Guid id, string document, string firstName, string lastName, string email) =>
+            _context.Connection.Execute(
+               "spEditCustomer",
+               new
+               {
+                   Id = id,
+                   Document = document,
+                   FirstName = firstName,
+                   LastName = lastName,
+                   Email = email,
+                   AlterationDate = DateTime.Now
+               },
+                commandType: CommandType.StoredProcedure);
+
+        public void Delete(Guid id) => _context.Connection.Execute(
+                "spDeleteCustomer",
+                new { Id = id },
+                 commandType: CommandType.StoredProcedure);
+
+        public bool CheckCustomer(Guid id) =>
+
+            _context.Connection.Query<bool>(
+                "spCheckCustomer",
+                new { Id = id },
+                 commandType: CommandType.StoredProcedure)
+                 .FirstOrDefault();
+
     }
 }

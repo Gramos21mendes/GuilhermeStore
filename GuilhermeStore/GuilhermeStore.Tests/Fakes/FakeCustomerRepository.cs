@@ -48,5 +48,20 @@ namespace GuilhermeStore.Tests.Fakes
         {
             return null;
         }
+
+        public void EditCustomer(Guid id, string document, string firstName, string lastName, string email)
+        {
+            
+        }
+
+        public void Delete(Guid id)
+        {
+        
+        }
+
+        public bool CheckCustomer(Guid id)
+        {
+            return false;
+        }
     }
 }

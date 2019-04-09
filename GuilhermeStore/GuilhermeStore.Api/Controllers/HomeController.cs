@@ -1,3 +1,4 @@
+using System;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GuilhermeStore.Api.Controllers
@@ -12,6 +13,15 @@ namespace GuilhermeStore.Api.Controllers
         public object Get()
         {
             return new { version = "Version 0.0.1" };
+        }
+
+
+        [HttpGet]
+        [Route("error")]
+        public string Erro()
+        {
+            throw new Exception("Algum erro Aconteceu");
+            return "Erro";
         }
     }
 }

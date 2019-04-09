@@ -1,3 +1,4 @@
+
 namespace GuilhermeStore.Shared.Commands
 {
     public interface ICommandHanler<T> where T : ICommand

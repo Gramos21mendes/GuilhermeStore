@@ -8,6 +8,7 @@ CREATE PROCEDURE spCreateAdress
 ,@State CHAR(2)
 ,@Country CHAR(2)
 ,@ZipCode CHAR(8)
+,@RegisterDate DATETIME
 ,@Type INT
 
 AS
@@ -21,6 +22,7 @@ INSERT INTO [GuilhermeStore].[Address] (Id
 ,State
 ,Country
 ,ZipCode
+,RegisterDate
 ,Type) VALUES (
  @Id 
 ,@CustomerId
@@ -31,4 +33,5 @@ INSERT INTO [GuilhermeStore].[Address] (Id
 ,@State 
 ,@Country 
 ,@ZipCode 
+,@RegisterDate
 ,@Type) 

@@ -24,10 +24,10 @@ namespace GuilhermeStore.Api.Controllers
             _handler = handler;
         }
 
-        [HttpGet]
-        [Route("customers")]
         // [ResponseCache(Duration = 60)] Cache, se os dados forem muito mutáveis não compensa.
         // Location =  ResponseCacheLocation.Client
+        [HttpGet]
+        [Route("customers")]
         public IEnumerable<ListCustomerQueryResult> Get() => _repository.Get();
 
         [HttpGet]
@@ -41,37 +41,17 @@ namespace GuilhermeStore.Api.Controllers
 
         [HttpPost]
         [Route("customers")]
-        public object Post([FromBody]CreateCustomerCommand command)
-        {
-            var result = (CreateCustomerCommandResult)_handler.Handle(command);
+        public ICommandResult Post([FromBody]CreateCustomerCommand command) => (ICommandResult)_handler.Handle(command);
 
-            if (_handler.Invalid)
-                return BadRequest(_handler.Notifications);
-
-            return result;
-        }
-
-
-        //TODO : Criar Command e Handler (handle)
+        //customers/{id} - Padrão
         [HttpPut]
-        [Route("customers/{id}")]
-        public Customer Put([FromBody]CreateCustomerCommand command)
-        {
-            var name = new Name(command.FirstName, command.LastName);
-            var document = new Document(command.Document);
-            var email = new Email(command.Email);
-            var customer = new Customer(name, document, email, command.Phone);
+        [Route("customers")]
+        public ICommandResult Put([FromBody]EditCustomerCommand command) => (ICommandResult)_handler.Handle(command);
 
-            return customer;
-        }
-
-        //TODO : Criar Command e Handler (handle)
+        //customers/{id} - Padrão
         [HttpDelete]
-        [Route("customers/{id}")]
-        public object Delete()
-        {
-            return new { message = "Cliente Removido com Sucesso !" };
-        }
+        [Route("customers")]
+        public ICommandResult Delete([FromBody]DeleteCustomerCommand command) => (ICommandResult)_handler.Handle(command);
 
     }
 }
