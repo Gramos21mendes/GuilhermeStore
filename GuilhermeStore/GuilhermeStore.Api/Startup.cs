@@ -11,6 +11,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Swashbuckle.AspNetCore.Swagger;
 using Elmah.Io.AspNetCore;
 using System;
+using Microsoft.Extensions.Configuration;
+using System.IO;
+using GuilhermeStore.Shared;
 
 namespace GuilhermeStore.Api
 {
@@ -18,8 +21,17 @@ namespace GuilhermeStore.Api
     {
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
+        public static IConfiguration Configuration { get; set; }
         public void ConfigureServices(IServiceCollection services)
         {
+            var builder = new ConfigurationBuilder()
+            .SetBasePath(Directory.GetCurrentDirectory())
+            .AddJsonFile("appsettings.json");
+
+            Configuration = builder.Build();
+
+            services.AddApplicationInsightsTelemetry(Configuration);
+
             //middleware
             services.AddMvc();
 
@@ -41,6 +53,8 @@ namespace GuilhermeStore.Api
                 options.ApiKey = "9ac3f651a7d845458993938a6f3e337a";
                 options.LogId = new Guid("9e498956-862b-49df-8dfd-9c29b688c9d6");
             });
+
+            Settings.ConnectionString = $"{Configuration["ConnectionString"]}";
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

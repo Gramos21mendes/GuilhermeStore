@@ -21,7 +21,7 @@ namespace GuilhermeStore.Api.Controllers
         public string Erro()
         {
             throw new Exception("Algum erro Aconteceu");
-            return "Erro";
+            // return "Erro";
         }
     }
 }
