@@ -38,7 +38,6 @@ namespace GuilhermeStore.Api.Controllers
         [Route("customers/{id}/orders")]
         public IEnumerable<ListCustomerOrdersQueryResult> GetOrders(Guid id) => _repository.GetOrders(id);
 
-
         [HttpPost]
         [Route("customers")]
         public ICommandResult Post([FromBody]CreateCustomerCommand command) => (ICommandResult)_handler.Handle(command);
