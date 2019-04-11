@@ -17,7 +17,7 @@ namespace GuilhermeStore.Api.Controllers
 
 
         [HttpGet]
-        [Route("error")]
+        [Route("errors")]
         public string Erro()
         {
             throw new Exception("Algum erro Aconteceu");

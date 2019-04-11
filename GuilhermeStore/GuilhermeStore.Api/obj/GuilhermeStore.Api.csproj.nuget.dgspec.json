@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Api\\GuilhermeStore.Api.csproj": {}
+    "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Api\\GuilhermeStore.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Api\\GuilhermeStore.Api.csproj": {
+    "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Api\\GuilhermeStore.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Api\\GuilhermeStore.Api.csproj",
+        "projectUniqueName": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Api\\GuilhermeStore.Api.csproj",
         "projectName": "GuilhermeStore.Api",
-        "projectPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Api\\GuilhermeStore.Api.csproj",
+        "projectPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Api\\GuilhermeStore.Api.csproj",
         "packagesPath": "C:\\Users\\guilherme.mendes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Api\\obj\\",
+        "outputPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -38,14 +38,14 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Domain\\GuilhermeStore.Domain.csproj": {
-                "projectPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Domain\\GuilhermeStore.Domain.csproj"
+              "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Domain\\GuilhermeStore.Domain.csproj": {
+                "projectPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Domain\\GuilhermeStore.Domain.csproj"
               },
-              "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Infra\\GuilhermeStore.Infra.csproj": {
-                "projectPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Infra\\GuilhermeStore.Infra.csproj"
+              "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Infra\\GuilhermeStore.Infra.csproj": {
+                "projectPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Infra\\GuilhermeStore.Infra.csproj"
               },
-              "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj": {
-                "projectPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj"
+              "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj": {
+                "projectPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj"
               }
             }
           }
@@ -109,14 +109,14 @@
         }
       }
     },
-    "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Domain\\GuilhermeStore.Domain.csproj": {
+    "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Domain\\GuilhermeStore.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Domain\\GuilhermeStore.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Domain\\GuilhermeStore.Domain.csproj",
         "projectName": "GuilhermeStore.Domain",
-        "projectPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Domain\\GuilhermeStore.Domain.csproj",
+        "projectPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Domain\\GuilhermeStore.Domain.csproj",
         "packagesPath": "C:\\Users\\guilherme.mendes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Domain\\obj\\",
+        "outputPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -143,8 +143,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj": {
-                "projectPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj"
+              "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj": {
+                "projectPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj"
               }
             }
           }
@@ -177,14 +177,14 @@
         }
       }
     },
-    "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Infra\\GuilhermeStore.Infra.csproj": {
+    "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Infra\\GuilhermeStore.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Infra\\GuilhermeStore.Infra.csproj",
+        "projectUniqueName": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Infra\\GuilhermeStore.Infra.csproj",
         "projectName": "GuilhermeStore.Infra",
-        "projectPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Infra\\GuilhermeStore.Infra.csproj",
+        "projectPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Infra\\GuilhermeStore.Infra.csproj",
         "packagesPath": "C:\\Users\\guilherme.mendes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Infra\\obj\\",
+        "outputPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -211,11 +211,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Domain\\GuilhermeStore.Domain.csproj": {
-                "projectPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Domain\\GuilhermeStore.Domain.csproj"
+              "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Domain\\GuilhermeStore.Domain.csproj": {
+                "projectPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Domain\\GuilhermeStore.Domain.csproj"
               },
-              "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj": {
-                "projectPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj"
+              "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj": {
+                "projectPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj"
               }
             }
           }
@@ -248,14 +248,14 @@
         }
       }
     },
-    "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj": {
+    "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj",
         "projectName": "GuilhermeStore.Shared",
-        "projectPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj",
+        "projectPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj",
         "packagesPath": "C:\\Users\\guilherme.mendes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Shared\\obj\\",
+        "outputPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",

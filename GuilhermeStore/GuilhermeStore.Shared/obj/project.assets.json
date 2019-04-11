@@ -211,11 +211,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj",
       "projectName": "GuilhermeStore.Shared",
-      "projectPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj",
+      "projectPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Shared\\GuilhermeStore.Shared.csproj",
       "packagesPath": "C:\\Users\\guilherme.mendes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore.Shared\\obj\\",
+      "outputPath": "C:\\Users\\guilherme.mendes\\dev\\GuilhermeStore\\GuilhermeStore\\GuilhermeStore.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\ProgramData\\Xamarin\\NuGet\\",
