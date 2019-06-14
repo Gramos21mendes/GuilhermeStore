@@ -285,7 +285,7 @@
     "FluentValidator/2.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-T3qA2X42qsr+KxpuZIGHLn6BQlwHqt/Rym78MqwdwkyfFQ0aPHLEIcGCbnmw2dqu+99+eSR0wrJ9GEbgY4E1pQ==",
+      "sha512": "sha512-+jPy82KgA80/SjmesLUCQsBB+GWbffGYMeGUMizLWc87hQkBPnyrysfoa/Hiq0QciGEeFD1PokPwLafnNDnQ/Q==",
       "path": "fluentvalidator/2.0.2",
       "hashPath": "fluentvalidator.2.0.2.nupkg.sha512"
     },

@@ -5,7 +5,7 @@ using GuilhermeStore.Shared;
 
 namespace GuilhermeStore.Infra.StoreContext.DataContexts
 {
-    public class GuilhermeDataContext : IDisposable
+    public class GuilhermeDataContext 
     {
         public SqlConnection Connection { get; set; }
 
@@ -15,12 +15,11 @@ namespace GuilhermeStore.Infra.StoreContext.DataContexts
             Connection.Open();
         }
 
-        public void Dispose()
-        {
-            if (Connection.State != ConnectionState.Closed)
-            {
-                Connection.Close();
-            }
-        }
+        // internal IDbConnection NewConnection()
+        // {
+        //     var connection = new SqlConnection(Settings.ConnectionString);
+        //     connection.Open();
+        //     return connection;
+        // }
     }
 }

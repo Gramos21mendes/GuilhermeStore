@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using GuilhermeStore.Domain.StoreContext.CustomerCommands.Inputs;
 using GuilhermeStore.Domain.StoreContext.Entities;
 using GuilhermeStore.Domain.StoreContext.Handlers;
@@ -23,7 +24,7 @@ namespace GuilhermeStore.Tests.Fakes
             return false;
         }
 
-        public CustomerOrdersCountResult GetCustomerOrdersCount(string document)
+        public Task<CustomerOrdersCountResult> GetCustomerOrdersCount(string document)
         {
             return null;
         }
@@ -33,30 +34,30 @@ namespace GuilhermeStore.Tests.Fakes
 
         }
 
-        public IEnumerable<ListCustomerQueryResult> Get()
+        public Task<IEnumerable<ListCustomerQueryResult>> Get()
         {
             return null;
         }
 
 
-        public GetCustomerQueryResult Get(Guid id)
+        public Task<GetCustomerQueryResult> Get(Guid id)
         {
             return null;
         }
 
-        public IEnumerable<ListCustomerOrdersQueryResult> GetOrders(Guid id)
+        public async Task<IEnumerable<ListCustomerOrdersQueryResult>> GetOrders(Guid id)
         {
             return null;
         }
 
         public void EditCustomer(Guid id, string document, string firstName, string lastName, string email)
         {
-            
+
         }
 
         public void Delete(Guid id)
         {
-        
+
         }
 
         public bool CheckCustomer(Guid id)

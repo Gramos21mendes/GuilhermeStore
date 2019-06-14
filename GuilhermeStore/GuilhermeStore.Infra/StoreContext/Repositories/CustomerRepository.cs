@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
+using System.Threading.Tasks;
 using Dapper;
 using GuilhermeStore.Domain.StoreContext.Entities;
 using GuilhermeStore.Domain.StoreContext.Queries;
@@ -20,39 +21,45 @@ namespace GuilhermeStore.Infra.StoreContext.Repositories
             _context = context;
         }
         public bool CheckDocument(string document) =>
-             _context.Connection.Query<bool>(
-                "spCheckDocument",
-                new { Document = document },
-                 commandType: CommandType.StoredProcedure).FirstOrDefault();
+        _context.Connection.QueryFirstOrDefault<bool>(
+                    "spCheckDocument",
+                    new { Document = document },
+                    commandType: CommandType.StoredProcedure);
 
+        // {
+        //     using (var connection = _context.NewConnection())
+        //     {
+        //         return connection.QueryFirstOrDefault<bool>(
+        //             "spCheckDocument",
+        //             new { Document = document },
+        //             commandType: CommandType.StoredProcedure);
+        //     }
+        // }
 
         public bool CheckEmail(string email) =>
-        _context.Connection.Query<bool>(
+        _context.Connection.QueryFirstOrDefault<bool>(
                 "spCheckEmail",
                 new { Email = email },
-                 commandType: CommandType.StoredProcedure)
-                 .FirstOrDefault();
+                 commandType: CommandType.StoredProcedure);
 
+        public async Task<IEnumerable<ListCustomerQueryResult>> Get() =>
+        await _context.Connection.QueryAsync<ListCustomerQueryResult>("spListCustomer", commandType: CommandType.StoredProcedure);
 
-        public IEnumerable<ListCustomerQueryResult> Get() =>
-        _context.Connection.Query<ListCustomerQueryResult>("spListCustomer", commandType: CommandType.StoredProcedure);
-
-        public CustomerOrdersCountResult GetCustomerOrdersCount(string document) =>
-        _context.Connection.Query<CustomerOrdersCountResult>(
+        public async Task<CustomerOrdersCountResult> GetCustomerOrdersCount(string document) => await
+        _context.Connection.QueryFirstOrDefaultAsync<CustomerOrdersCountResult>(
                 "spGetCustomerOrdersCount",
                 new { Document = document },
-                 commandType: CommandType.StoredProcedure)
-                 .FirstOrDefault();
+                 commandType: CommandType.StoredProcedure);
 
-        public GetCustomerQueryResult Get(Guid id) =>
-            _context.Connection.Query<GetCustomerQueryResult>(
+        public async Task<GetCustomerQueryResult> Get(Guid id) =>
+            await _context.Connection.QueryFirstOrDefaultAsync<GetCustomerQueryResult>(
                 "spListCustomerId",
                 new { Id = id },
-                 commandType: CommandType.StoredProcedure).FirstOrDefault();
+                 commandType: CommandType.StoredProcedure);
 
         //TODO : Fazer Procedure para listar os pedidos do Cliente.
-        public IEnumerable<ListCustomerOrdersQueryResult> GetOrders(Guid id) =>
-            _context.Connection.Query<ListCustomerOrdersQueryResult>("spCustomerGetOrders", commandType: CommandType.StoredProcedure);
+        public async Task<IEnumerable<ListCustomerOrdersQueryResult>> GetOrders(Guid id) => await
+            _context.Connection.QueryAsync<ListCustomerOrdersQueryResult>("spCustomerGetOrders", commandType: CommandType.StoredProcedure);
 
         public void Save(Customer customer)
         {
@@ -112,12 +119,10 @@ namespace GuilhermeStore.Infra.StoreContext.Repositories
                  commandType: CommandType.StoredProcedure);
 
         public bool CheckCustomer(Guid id) =>
-
-            _context.Connection.Query<bool>(
+            _context.Connection.QueryFirstOrDefault<bool>(
                 "spCheckCustomer",
                 new { Id = id },
-                 commandType: CommandType.StoredProcedure)
-                 .FirstOrDefault();
+                 commandType: CommandType.StoredProcedure);
 
     }
 }

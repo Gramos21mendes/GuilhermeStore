@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using GuilhermeStore.Domain.StoreContext.Entities;
 using GuilhermeStore.Domain.StoreContext.Queries;
 
@@ -12,10 +13,10 @@ namespace GuilhermeStore.Domain.StoreContext.Repositories
         bool CheckCustomer(Guid id);
         void Save(Customer customer);
         void Delete(Guid id);
-        CustomerOrdersCountResult GetCustomerOrdersCount(string document);
-        IEnumerable<ListCustomerQueryResult> Get();
-        GetCustomerQueryResult Get(Guid id);
-        IEnumerable<ListCustomerOrdersQueryResult> GetOrders(Guid id);
-        void EditCustomer(Guid id, string document, string firstName,  string lastName, string email);
+        Task<CustomerOrdersCountResult> GetCustomerOrdersCount(string document);
+        Task<IEnumerable<ListCustomerQueryResult>> Get();
+        Task<GetCustomerQueryResult> Get(Guid id);
+        Task<IEnumerable<ListCustomerOrdersQueryResult>> GetOrders(Guid id);
+        void EditCustomer(Guid id, string document, string firstName, string lastName, string email);
     }
 }

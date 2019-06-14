@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using GuilhermeStore.Domain.StoreContext.CustomerCommands.Inputs;
 using GuilhermeStore.Domain.StoreContext.Entities;
 using GuilhermeStore.Domain.StoreContext.Handlers;
@@ -28,15 +29,15 @@ namespace GuilhermeStore.Api.Controllers
         // Location =  ResponseCacheLocation.Client
         [HttpGet]
         [Route("customers")]
-        public IEnumerable<ListCustomerQueryResult> Get() => _repository.Get();
+        public async Task<IEnumerable<ListCustomerQueryResult>> Get() => await _repository.Get();
 
         [HttpGet]
         [Route("customers/{id}")]
-        public GetCustomerQueryResult GetById(Guid id) => _repository.Get(id);
+        public async Task<GetCustomerQueryResult> GetById(Guid id) => await _repository.Get(id);
 
         [HttpGet]
         [Route("customers/{id}/orders")]
-        public IEnumerable<ListCustomerOrdersQueryResult> GetOrders(Guid id) => _repository.GetOrders(id);
+        public async Task<IEnumerable<ListCustomerOrdersQueryResult>> GetOrders(Guid id) => await _repository.GetOrders(id);
 
         [HttpPost]
         [Route("customers")]

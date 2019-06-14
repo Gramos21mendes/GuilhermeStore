@@ -6,6 +6,8 @@ using GuilhermeStore.Domain.StoreContext.Entities;
 using System;
 using GuilhermeStore.Domain.StoreContext.Repositories;
 using GuilhermeStore.Domain.StoreContext.Services;
+using System.Transactions;
+using System.Threading.Tasks;
 
 namespace GuilhermeStore.Domain.StoreContext.Handlers
 {
@@ -21,38 +23,44 @@ namespace GuilhermeStore.Domain.StoreContext.Handlers
 
         public ICommandResult Handle(CreateCustomerCommand command)
         {
-            //Verificar se o CPF já existe na base
-            if (_repository.CheckDocument(command.Document))
-                AddNotification("Document", "Este CPF já está em uso");
+            using (var tx = new TransactionScope(TransactionScopeOption.Required))
+            {
+                //Verificar se o CPF já existe na base
+                if (_repository.CheckDocument(command.Document))
+                    AddNotification("Document", "Este CPF já está em uso");
 
-            //Verificar se o E-mail existe na base
-            if (_repository.CheckEmail(command.Email))
-                AddNotification("Document", "Este E-mail já está em uso");
+                //Verificar se o E-mail existe na base
+                if (_repository.CheckEmail(command.Email))
+                    AddNotification("Document", "Este E-mail já está em uso");
 
-            //Criar os VOs
-            var name = new Name(command.FirstName, command.LastName);
-            var document = new Document(command.Document);
-            var email = new Email(command.Email);
+                //Criar os VOs
+                var name = new Name(command.FirstName, command.LastName);
+                var document = new Document(command.Document);
+                var email = new Email(command.Email);
 
-            //Criar Entidade
-            var customer = new Customer(name, document, email, command.Phone);
+                //Criar Entidade
+                var customer = new Customer(name, document, email, command.Phone);
 
-            //Validar Entidades e VOs
-            AddNotifications(name.Notifications);
-            AddNotifications(document.Notifications);
-            AddNotifications(email.Notifications);
-            AddNotifications(customer.Notifications);
+                //Validar Entidades e VOs
+                AddNotifications(name.Notifications);
+                AddNotifications(document.Notifications);
+                AddNotifications(email.Notifications);
+                AddNotifications(customer.Notifications);
 
-            if (Invalid) return new CommandResult(false, "Por favor, corrija os campos abaixo.", Notifications);
+                if (Invalid) return new CommandResult(false, "Por favor, corrija os campos abaixo.", Notifications);
 
-            //Persistir o cliente 
-            _repository.Save(customer);
+                //Persistir o cliente 
+                _repository.Save(customer);
 
-            // //Enviar um E-mail de boas vindas
-            // _emailService.Send(email.Address, "guilherme.mendes@interlayers.com.br", "Bem Vindo", "Seja Bem vindo ao Guilherme Store!");
+                // //Enviar um E-mail de boas vindas
+                // _emailService.Send(email.Address, "guilherme.mendes@interlayers.com.br", "Bem Vindo", "Seja Bem vindo ao Guilherme Store!");
 
-            //Retornar o resultado para tela
-            return new CommandResult(true, "Bem-Vindo ao Guilherme Store", new { Id = customer.Id, Name = name.ToString(), Email = email.Address });
+                //Retornar o resultado para tela
+                var result = new CommandResult(true, "Bem-Vindo ao Guilherme Store", new { Id = customer.Id, Name = name.ToString(), Email = email.Address });
+
+                tx.Complete();
+                return result;
+            }
         }
 
 
